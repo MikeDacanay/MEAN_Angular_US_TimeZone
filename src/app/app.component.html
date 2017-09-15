@@ -1,0 +1,7 @@
+<button (click)="hello()" [ngStyle]="{'background-color': color}">PST</button>
+<button (click)="hello1()" [ngStyle]="{'background-color': color1}">MST</button>
+<button (click)="hello2()" [ngStyle]="{'background-color': color2}">CST</button>
+<button (click)="hello3()" [ngStyle]="{'background-color': color3}">EST</button>
+<button (click)="hello4()">Clear</button>
+
+<h1>{{time | date:['medium']}}</h1>
